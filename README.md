@@ -1,21 +1,30 @@
-# ONLINE BANKING ANALYSIS
+PySpark Banking Analysis Project
+Overview
+This PySpark project analyzes banking-related datasets including loan, credit card, and transaction data. It utilizes PySpark's distributed computing capabilities to perform advanced data extraction, preprocessing, and analysis tasks.
 
-This is the first project where we worked on apache spark, In this project what we have done is that we downloaded the datasets from KAGGLE where everyone is aware of, we have downloaded loan, customers credit card and transactions datasets . After downloading the datsaets we have cleaned the data . Then after by using new tools and technologies like spark, HDFS, Hive and many more we have executed new use cases on the datasets, that we have downloaded from kaggle. As we all know apache spark is a framework that can quickly process the large datsets.
-                            
- So now let me explain the dataflow of how we have done is, first primarly we have ingested the data that is , we retrieved the data and then downloaded the datasets from kaggle and then we stored this datasets in cloud storage and imported from MYSQL to hive by sqoop this is how we have ingested the data , second after ingesting the data we have processed the large datasets in hive and then we have analyzed the data using pyspark in jupyter notebook by implementing several use cases.
-                            
- ## TECHNOLOGIES USED:
- Spark SQL
- Spark
- HDFS
- Hive
-                          
- ## ROLES AND RESPONSIBLITIES:
- Collaborated in a team of 6 members using version control with Git/Github.
- Utilized the historical data from kaggle.com.
- Collected 3 datasets of online transactions, loan and customer credit card.
- Implemented Spark Session to load the data into Data Frames.
- Used standalone cluster mode in spark environment to run on Spark SQL queries.
-
-## license
-This project uses the following license: [MIT License](LICENSE)
+Features
+Data extraction and preprocessing using PySpark DataFrame API
+Advanced analysis techniques including machine learning and model evaluation
+Insights generation for banking-related datasets such as loans, credit cards, and transactions
+Requirements
+Python 3.x
+Apache Spark
+PySpark
+Jupyter Notebook (optional for interactive analysis)
+Installation
+Clone the repository:
+bash
+Copy code
+git clone <repository_url>
+Install dependencies:
+bash
+Copy code
+pip install pyspark
+Usage
+Ensure all required datasets (loan.csv, credit_card.csv, txn.csv) are available in the specified directory.
+Run the Jupyter Notebook or Python script to execute the analysis.
+View the results and insights generated from the analysis.
+Project Structure
+data/: Directory containing the datasets used for analysis.
+analysis.ipynb: Jupyter Notebook containing the PySpark code for data analysis.
+README.md: This file providing project overview and usage instructions
