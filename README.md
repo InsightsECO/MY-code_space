@@ -1,31 +1,49 @@
-PySpark Banking Analysis Project
-Overview
-This PySpark project analyzes banking-related datasets, including loan, credit card, and transaction data. It utilizes PySpark's distributed computing capabilities to perform advanced data extraction, preprocessing, and analysis tasks.
+# PySpark Banking Analysis Project
 
-Features
-Data Extraction and Preprocessing: Using PySpark DataFrame API
-Advanced Analysis Techniques: Including machine learning and model evaluation
-Insights Generation: For banking-related datasets such as loans, credit cards, and transactions
-Requirements
-Python 3.x
-Apache Spark
-PySpark
-Jupyter Notebook (optional for interactive analysis)
-Installation
-Clone the repository:
+## Overview
 
-bash
-Copy code
-git clone <repository_url>
-Install dependencies:
+<p>This PySpark project analyzes banking-related datasets, including loan, credit card, and transaction data. It utilizes PySpark's distributed computing capabilities to perform advanced data extraction, preprocessing, and analysis tasks.</p>
 
-bash
-Copy code
-pip install pyspark
-Usage
-Ensure all required datasets (loan.csv, credit_card.csv, txn.csv) are available in the specified directory.
-Run the Jupyter Notebook or Python script to execute the analysis.
-View the results and insights generated from the analysis.
-Project Structure
-data/: Directory containing the datasets used for analysis.
-analysis.ipynb: Jupyter Notebook containing the PySpark code for data analysis
+## Features
+
+<ul>
+    <li><strong>Data Extraction and Preprocessing:</strong> Using PySpark DataFrame API</li>
+    <li><strong>Advanced Analysis Techniques:</strong> Including machine learning and model evaluation</li>
+    <li><strong>Insights Generation:</strong> For banking-related datasets such as loans, credit cards, and transactions</li>
+</ul>
+
+## Requirements
+
+<ul>
+    <li>Python 3.x</li>
+    <li>Apache Spark</li>
+    <li>PySpark</li>
+    <li>Jupyter Notebook (optional for interactive analysis)</li>
+</ul>
+
+## Installation
+
+<ol>
+    <li>Clone the repository:
+        <pre><code>git clone &lt;repository_url&gt;</code></pre>
+    </li>
+    <li>Install dependencies:
+        <pre><code>pip install pyspark</code></pre>
+    </li>
+</ol>
+
+## Usage
+
+<ol>
+    <li>Ensure all required datasets (<code>loan.csv</code>, <code>credit_card.csv</code>, <code>txn.csv</code>) are available in the specified directory.</li>
+    <li>Run the Jupyter Notebook or Python script to execute the analysis.</li>
+    <li>View the results and insights generated from the analysis.</li>
+</ol>
+
+## Project Structure
+
+<ul>
+    <li><code>data/</code>: Directory containing the datasets used for analysis.</li>
+    <li><code>analysis.ipynb</code>: Jupyter Notebook containing the PySpark code for data analysis.</li>
+    <li><code>README.md</code>: This file providing project overview and usage instructions.</li>
+</ul>
